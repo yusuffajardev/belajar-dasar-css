@@ -1,0 +1,17 @@
+h2 {
+  /* 
+        text-align : 
+        Properti CSS rata-teks mengatur perataan horizontal konten tingkat sebaris di dalam elemen blok atau kotak sel tabel. Ini berarti properti ini berfungsi seperti perataan vertikal, namun dalam arah horizontal.
+    */
+  text-align: center;
+}
+section article p {
+  text-align: justify;
+  /* 
+  font-weight
+    The font-weight CSS property sets the weight (or boldness) of the font 
+    */
+}
+section h3 {
+  font-weight: bold;
+}
