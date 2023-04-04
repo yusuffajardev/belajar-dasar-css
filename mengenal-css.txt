@@ -1,0 +1,19 @@
+-- CSS (Cascading Style Sheets) is used to style and lay out web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. 
+
+--CSS (Cascading Style Sheets) digunakan untuk menata dan menata halaman web - misalnya, untuk mengubah font, warna, ukuran, dan spasi konten Anda, membaginya ke dalam beberapa kolom, atau menambahkan animasi dan fitur dekoratif lainnya.
+
+-- However, the web would be a boring place if all websites looked like that. Using CSS, you can control exactly how HTML elements look in the browser, presenting your markup using whatever design you like.
+
+--Namun, web akan menjadi tempat yang membosankan jika semua situs web terlihat seperti itu. Dengan menggunakan CSS, Anda dapat mengontrol dengan tepat bagaimana elemen HTML terlihat di browser, menyajikan markup Anda menggunakan desain apa pun yang Anda sukai.
+
+-- Seperti yang telah kami sebutkan sebelumnya, CSS adalah bahasa untuk menentukan bagaimana dokumen disajikan kepada pengguna - bagaimana dokumen tersebut diberi gaya, tata letak, dll.
+
+--CSS is a rule-based language — you define the rules by specifying groups of styles that should be applied to particular elements or groups of elements on your web page. 
+for example :
+
+selector -> {h1 can be elements, id, class, attribut} Declare rules for styling/decorating/layouting or etc the {elements}{
+  consist of rules: 
+  {property} -> color: {value} -> red;
+  font-size: red
+}
+
