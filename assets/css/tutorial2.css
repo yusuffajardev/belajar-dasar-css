@@ -8,11 +8,19 @@ h2 {
     text-decoration : 
     The text-decoration shorthand CSS property sets the appearance of decorative lines on text. 
     */
-  text-decoration: underline hsla(234, 92%, 65%, 0.732);
+  text-decoration: underline overline dashed hsla(234, 92%, 65%, 0.732);
+}
+section a {
+  text-decoration: none;
 }
 section article {
   text-align: justify;
   font-weight: lighter;
+  /* 
+    font-size
+  The font-size CSS property sets the size of the font. 
+  */
+  font-size: 1.2em;
   /* relative terhadap parent */
   /* 
     bergantung kepada orang yang memandang; 
@@ -21,6 +29,18 @@ section article {
   font-weight
     The font-weight CSS property sets the weight (or boldness) of the font 
     */
+}
+section article p {
+  /* 
+    line-height
+  The line-height CSS property sets the height of a line box
+  */
+  line-height: 1.8;
+  /* 
+      letter-spacing
+  The letter-spacing CSS property sets the horizontal spacing behavior between text characters
+  */
+  letter-spacing: -1px;
 }
 section h3 {
   font-weight: 300;
