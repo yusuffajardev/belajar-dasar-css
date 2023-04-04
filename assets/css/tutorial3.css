@@ -4,14 +4,24 @@ h2 {
         Properti CSS rata-teks mengatur perataan horizontal konten tingkat sebaris di dalam elemen blok atau kotak sel tabel. Ini berarti properti ini berfungsi seperti perataan vertikal, namun dalam arah horizontal.
     */
   text-align: center;
+  /* 
+    text-decoration : 
+    The text-decoration shorthand CSS property sets the appearance of decorative lines on text. 
+    */
+  text-decoration: underline hsla(234, 92%, 65%, 0.732);
 }
-section article p {
+section article {
   text-align: justify;
+  font-weight: lighter;
+  /* relative terhadap parent */
+  /* 
+    bergantung kepada orang yang memandang; 
+  */
   /* 
   font-weight
     The font-weight CSS property sets the weight (or boldness) of the font 
     */
 }
 section h3 {
-  font-weight: bold;
+  font-weight: 300;
 }
