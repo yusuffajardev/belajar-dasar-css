@@ -11,9 +11,9 @@
 --CSS is a rule-based language — you define the rules by specifying groups of styles that should be applied to particular elements or groups of elements on your web page. 
 for example :
 
-selector -> {h1 can be elements, id, class, attribut} Declare rules for styling/decorating/layouting or etc the {elements}{
-  consist of rules: 
-  {property} -> color: {value} -> red;
+selector -> {h1 can be elements, id, class, attribut} {
+    Declare rules for styling/decorating/layouting or etc the {elements}
+  {property} -> color: {value} (pairs) -> red;
   font-size: red
 }
 
