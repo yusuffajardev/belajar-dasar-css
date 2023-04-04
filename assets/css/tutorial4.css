@@ -1,0 +1,15 @@
+/* 
+-- Specificity
+Specificity is the algorithm used by browsers to determine the CSS declaration that is the most relevant to an element, which in turn, determines the property value to apply to the element.
+
+-- Kekhususan
+Kekhususan adalah algoritme yang digunakan oleh browser untuk menentukan deklarasi CSS yang paling relevan dengan suatu elemen, yang pada gilirannya, menentukan nilai properti yang akan diterapkan pada elemen tersebut.
+
+*/
+section article p span.published-name {
+  color: blue;
+}
+
+section article p span.published-date {
+  color: red;
+}
