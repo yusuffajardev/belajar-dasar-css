@@ -18,3 +18,7 @@ span {
 #l3 {
   color: firebrick;
 }
+.marked {
+  font-weight: 600;
+  color: limegreen;
+}
