@@ -1,0 +1,9 @@
+/* selector */
+section {
+  background-color: cornflowerblue;
+  color: white;
+}
+h1 {
+  /* declare property : value */
+  color: inherit;
+}
