@@ -7,3 +7,25 @@ h1 {
   /* declare property : value */
   color: inherit;
 }
+/* 
+    --color
+Properti CSS warna menetapkan nilai warna latar depan teks elemen dan dekorasi teks, serta menetapkan nilai warna saat ini. warna saat ini dapat digunakan sebagai nilai tidak langsung pada properti lain dan merupakan nilai default untuk properti warna lain, seperti warna batas.
+*/
+/* 
+    --background-color
+The background-color CSS property sets the background color of an element.
+
+*/
+
+#not-include {
+  background-color: navajowhite;
+}
+
+div p {
+  color: navy;
+}
+
+div button {
+  color: white;
+  background-color: limegreen;
+}
