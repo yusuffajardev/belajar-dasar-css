@@ -1,0 +1,25 @@
+body h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction:row;
+  box-sizing: border-box;
+  background-color: #b7c4cf;
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto;
+  border: 5px solid #b7c4cf;
+}
+
+.container > div {
+  width: 215px;
+  height: 215px;
+}
+
+.container div span {
+  text-align: center;
+  color: white;
+  font-size: large;
+  line-height: 213px;
+}

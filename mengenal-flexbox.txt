@@ -1,0 +1,23 @@
+dasar dasar flexbox
+
+Flexbox adalah teknik layout CSS yang memungkinkan Anda untuk mengatur posisi, ukuran, dan susunan elemen HTML pada halaman web dengan lebih mudah dan fleksibel. Berikut adalah beberapa dasar-dasar Flexbox:
+
+    Kontainer Flex: Untuk menggunakan Flexbox, Anda perlu membuat sebuah kontainer Flex menggunakan properti display: flex; pada elemen yang ingin Anda atur posisi dan susunannya.
+
+    Elemen Flex: Setiap elemen dalam kontainer Flex disebut sebagai elemen Flex. Anda dapat mengatur susunan dan posisi elemen Flex menggunakan properti Flex, seperti flex-grow, flex-shrink, dan flex-basis.
+
+    Axis: Kontainer Flex memiliki dua axis utama: axis utama (main axis) dan axis silang (cross axis). Axis utama berjalan sepanjang kontainer Flex, sedangkan axis silang berjalan tegak lurus terhadap axis utama.
+
+    Justifikasi (Justify Content): Properti untuk mengatur posisi elemen Flex pada axis utama, seperti justify-content: center; untuk menempatkan elemen pada tengah-tengah kontainer Flex.
+
+    Pensejajaran (Alignment): Properti untuk mengatur posisi elemen Flex pada axis silang, seperti align-items: center; untuk menempatkan elemen pada tengah-tengah kontainer Flex secara vertikal.
+
+    Urutan (Ordering): Properti untuk mengatur urutan elemen Flex dalam kontainer, seperti order: 1; untuk memindahkan elemen Flex ke urutan kedua dalam kontainer.
+
+    Fleksibilitas (Flexibility): Properti untuk mengatur seberapa fleksibel ukuran elemen Flex dalam kontainer, seperti flex: 1; untuk memberi elemen proporsi ukuran yang sama dalam kontainer.
+
+    Penumpukan (Wrapping): Properti untuk mengatur penempatan elemen Flex dalam beberapa baris atau kolom, seperti flex-wrap: wrap; untuk membuat elemen menumpuk secara vertikal.
+
+    Pemisahan (Spacing): Properti untuk mengatur jarak antara elemen Flex, seperti margin atau padding, untuk menciptakan tata letak yang lebih teratur.
+
+Itulah beberapa dasar-dasar Flexbox yang dapat membantu Anda mengatur susunan dan posisi elemen HTML pada halaman web dengan lebih mudah dan fleksibel. Dengan memahami konsep-konsep ini, Anda dapat menciptakan tata letak yang lebih menarik dan responsif.
