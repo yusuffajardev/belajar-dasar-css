@@ -1,0 +1,19 @@
+css display
+
+CSS display adalah properti yang digunakan untuk menentukan bagaimana sebuah elemen HTML ditampilkan pada halaman web. Properti ini memiliki beberapa nilai yang dapat digunakan, yaitu:
+
+    block: Elemen akan ditampilkan sebagai blok, dan akan memenuhi seluruh lebar kontainer. Setiap elemen block akan dimulai di baris baru dan elemen di bawahnya akan muncul pada baris berikutnya. Contoh elemen block adalah <div>, <p>, <h1>-<h6>, <ul>, <ol>, <li>, dan <table>.
+
+    inline: Elemen akan ditampilkan sebagai satu baris, dan hanya memenuhi ruang yang dibutuhkan oleh konten di dalamnya. Setiap elemen inline akan dimulai setelah elemen sebelumnya pada baris yang sama, dan elemen di bawahnya akan muncul pada baris berikutnya. Contoh elemen inline adalah <a>, <span>, <img>, dan <input>.
+
+    inline-block: Elemen akan ditampilkan sebagai satu baris, dan akan memenuhi ruang yang dibutuhkan oleh konten di dalamnya. Namun, elemen dapat memiliki lebar, tinggi, margin, dan padding seperti elemen block. Contoh elemen inline-block adalah <button> dan <input type="checkbox">.
+
+    none: Elemen tidak akan ditampilkan pada halaman web. Ini sering digunakan untuk menyembunyikan elemen secara sementara atau untuk menunjukkan bahwa elemen tersebut tidak tersedia.
+
+    flex: Elemen akan diatur dalam suatu kontainer yang fleksibel, dan dapat diatur ulang secara dinamis. Properti ini memungkinkan kita untuk mengatur ukuran dan posisi elemen di dalam kontainer dengan mudah.
+
+    grid: Elemen akan diatur dalam suatu grid (kisi), yang memungkinkan kita untuk mengatur posisi dan ukuran elemen secara lebih kompleks.
+
+    table: Elemen akan ditampilkan seperti tabel HTML, dengan baris dan kolom. Properti ini dapat digunakan untuk membuat layout yang kompleks seperti tabel atau dashboard.
+
+Itulah beberapa nilai yang dapat digunakan pada properti display dalam CSS. Dengan memahami konsep-konsep ini, Anda dapat memilih nilai yang tepat untuk setiap elemen HTML dalam halaman web Anda dan mengatur tampilannya dengan lebih baik.

@@ -1,0 +1,22 @@
+body h2 {
+  /* tidak dihapus, tapi tidak di tampilkan atau akan dimanipulasi */
+  display: none;
+  width: 623px;
+  margin: 30px;
+  padding: 50px;
+  background-color: steelblue;
+  color: white;
+}
+
+/* inline elemen sperti span dll tidak dapat dimodifikasi lebar atau tingginya */
+body div > span {
+  background-color: maroon;
+  color: whitesmoke;
+}
+body .inline {
+  /* margin di inline hanya berlaku kiri  - kanan */
+  margin: 20px;
+  padding: 5px;
+  background-color: royalblue;
+  color: white;
+}
