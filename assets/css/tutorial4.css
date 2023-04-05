@@ -16,3 +16,8 @@ section article p span.published-date {
 .raw > p {
   color: chartreuse;
 }
+
+.kosong + .kirim {
+  background-color: purple;
+  color: white;
+}
