@@ -16,6 +16,9 @@ div[class="bordering"] {
   border-style: ridge solid;
   border-width: 21px 10px 21px 10px;
   border-color: steelblue;
+  /* 
+     Margin: Ini adalah ruang kosong di luar border, yang memisahkan kotak dari elemen lain di sekitarnya. Properti margin digunakan untuk mengatur jarak antara kotak dan elemen lain.
+  */
   margin: 20px 0px;
 }
 .padding {
