@@ -2,12 +2,15 @@ body h1 {
   text-align: center;
 }
 .container {
+  /* row <- horizontal */
+  /* column <- vertikal */
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
+  justify-content: space-evenly;
   box-sizing: border-box;
   background-color: #b7c4cf;
   width: 90%;
-  height: 50vh;
+  height: 1500px;
   margin: 0 auto;
   border: 5px solid #b7c4cf;
 }
