@@ -1,6 +1,30 @@
-div {
+/* 
+dasar dasar box model css
+Box model adalah salah satu konsep penting dalam CSS yang mengatur cara browser memperlakukan elemen HTML. Setiap elemen HTML pada halaman web dianggap sebagai kotak (box), dan memiliki beberapa properti seperti lebar (width), tinggi (height), margin, padding, dan border yang membentuk kotak tersebut.
+
+Box model terdiri dari empat bagian: content, padding, border, dan margin. Masing-masing bagian ini mempengaruhi ukuran total dari kotak tersebut.
+
+Berikut adalah penjelasan singkat tentang masing-masing bagian dalam box model CSS:
+
+    Content: Ini adalah bagian kotak yang menampung konten elemen HTML, seperti teks, gambar, atau video. Properti width dan height digunakan untuk mengatur ukuran konten dalam kotak.
+
+    Padding: Ini adalah ruang kosong di sekitar konten, di antara konten dan border. Properti padding digunakan untuk mengatur jarak antara konten dan border.
+
+    Border: Ini adalah garis yang mengelilingi kotak, tepat di luar padding. Properti border digunakan untuk mengatur jenis, ukuran, dan warna garis border.
+
+    Margin: Ini adalah ruang kosong di luar border, yang memisahkan kotak dari elemen lain di sekitarnya. Properti margin digunakan untuk mengatur jarak antara kotak dan elemen lain.
+*/
+
+.box-model {
   width: 700px;
   border: 1px solid lime;
   padding: 20px;
   margin: 20px 30px;
+}
+
+div[class="bordering"] {
+  box-sizing: border-box;
+  width: 720px;
+  padding: 30px;
+  border-style: ridge solid;
 }
