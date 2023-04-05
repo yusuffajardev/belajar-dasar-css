@@ -13,6 +13,17 @@ section article p span.published-name {
 section article p span.published-date {
   color: red;
 }
+/* hover = arahkan */
+/* 
+  --Kelas semu
+Kelas semu CSS adalah kata kunci yang ditambahkan ke selektor yang menentukan status khusus dari elemen yang dipilih. Sebagai contoh, kelas semu :hover dapat digunakan untuk memilih tombol ketika penunjuk pengguna mengarahkan kursor ke tombol tersebut dan tombol yang dipilih ini kemudian dapat ditata.
+*/
+span[class="published-name"]:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
 /* descendant */
 .raw > p {
   color: chartreuse;
@@ -25,5 +36,23 @@ section article p span.published-date {
 }
 /* atribut selector, namaElement[atribut=value] */
 form input[type="text"] {
+  color: black;
+}
+form input[type="password"] {
   color: red;
+}
+section article:nth-of-type(2n):hover {
+  background-color: darkblue;
+  color: white;
+}
+/* 
+  Elemen semu
+Elemen semu CSS adalah kata kunci yang ditambahkan ke selektor yang memungkinkan Anda menata bagian tertentu dari elemen yang dipilih. Sebagai contoh, ::first-line dapat digunakan untuk mengubah font dari baris pertama paragraf.
+*/
+section article h3::first-letter {
+  font-size: larger;
+  font-weight: bold;
+}
+.raw div p::after {
+  content: " SELESAI";
 }
