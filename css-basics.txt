@@ -1,0 +1,25 @@
+dasar dasar css tanpa contoh kode
+
+Berikut adalah beberapa dasar-dasar CSS tanpa contoh kode:
+
+    Selektor: Digunakan untuk menentukan elemen HTML mana yang akan diberikan gaya.
+
+    Properti: Nilai-nilai yang kita berikan untuk mengontrol tampilan elemen HTML.
+
+    Nilai: Nilai konkrit yang kita berikan untuk properti tertentu.
+
+    Kelas dan ID: Cara untuk memberikan nama atau identitas pada elemen HTML. Kelas digunakan untuk mengelompokkan elemen yang serupa, sedangkan ID digunakan untuk memberikan identitas unik pada elemen.
+
+    Box Model: Setiap elemen HTML dikelilingi oleh kotak (box) yang terdiri dari margin, border, padding, dan content.
+
+    Display: Menentukan bagaimana elemen HTML ditampilkan pada halaman web, seperti block, inline, atau inline-block.
+
+    Positioning: Menentukan posisi elemen HTML pada halaman web, seperti static, relative, absolute, atau fixed.
+
+    Float: Menentukan bagaimana elemen HTML berinteraksi dengan elemen lainnya pada halaman web, seperti menempel di sisi kanan atau kiri dari elemen lain.
+
+    Responsive Design: Mengatur tampilan halaman web agar dapat menyesuaikan ukuran layar pada berbagai perangkat.
+
+    CSS Framework: Kumpulan kode CSS dan HTML yang siap digunakan untuk mempercepat pembuatan halaman web. Beberapa contoh CSS Framework yang populer adalah Bootstrap, Foundation, dan Materialize.
+
+Itulah beberapa dasar-dasar CSS tanpa contoh kode. Dengan memahami konsep-konsep ini, Anda dapat mulai membangun tampilan halaman web yang menarik dan responsif.
