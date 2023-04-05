@@ -16,4 +16,19 @@ div[class="bordering"] {
   border-style: ridge solid;
   border-width: 21px 10px 21px 10px;
   border-color: steelblue;
+  margin: 20px 0px;
+}
+.padding {
+  /* 
+    padding
+  The padding CSS shorthand property sets the padding area on all four sides of an element at once.
+  */
+  width: 880px;
+  box-sizing: border-box;
+  border: 3px solid navy;
+  /* padding-top: 30px;
+  padding-right: 40px;
+  padding-left: 100px;
+  padding-bottom: 120px; */
+  padding: 1.2em;
 }
