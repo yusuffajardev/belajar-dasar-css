@@ -27,4 +27,6 @@ div[class="bordering"] {
   width: 720px;
   padding: 30px;
   border-style: ridge solid;
+  border-width: 21px 10px 21px 10px;
+  border-color: steelblue;
 }
