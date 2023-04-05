@@ -13,11 +13,17 @@ section article p span.published-name {
 section article p span.published-date {
   color: red;
 }
+/* descendant */
 .raw > p {
   color: chartreuse;
 }
 
+/* ajdacent */
 .kosong + .kirim {
   background-color: purple;
   color: white;
+}
+/* atribut selector, namaElement[atribut=value] */
+form input[type="text"] {
+  color: red;
 }
