@@ -6,61 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricing Tiers</title>
     <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- HTML in your document's head -->
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </head>
-  <body>
-    <div class="panel pricing-table">
+  <body
+    class="font-inter font-feature-numeric flex justify-center min-h-full"
+  >
+    <div
+      class="panel pricing-table bg-slate-50 rounded-lg py-2.5 px-6 w-full max-w-3xl flex flex-row  text-center uppercase"
+    >
       <div class="pricing-plan">
         <img
           src="icon/undraw_share_online_re_gal9.svg"
           alt=""
           class="pricing-img"
-          width="250"
+          width="320"
         />
-        <h2 class="pricing-header">PERSONAL</h2>
+        <h2 class="pricing-header font-bold text-slate-400 tracking-wide">
+          PERSONAL
+        </h2>
         <ul class="pricing-features">
-          <li class="pricing-features-item">Custom Domains</li>
-          <li class="pricing-features-item">
+          <li class="pricing-features-item font-bold tracking-normal text-sm">
+            Custom Domains
+          </li>
+          <li class="pricing-features-item font-bold tracking-normal text-sm">
             Sleeps after 30 mins of inactivity
           </li>
         </ul>
-        <span class="pricing-price">Free</span>
+        <span class="pricing-price font-bold">Free</span>
         <a href="#/" class="pricing-button">Sign Up</a>
+      </div>
 
-        <div class="pricing-plan">
-          <img
-            src="icon/undraw_going_up_re_86kg.svg"
-            alt=""
-            class="pricing-img"
-            width="250"
-          />
-          <h2 class="pricing-header">SMALL TEAM</h2>
-          <ul class="pricing-features">
-            <li class="pricing-features-item">Custom Domains</li>
-            <li class="pricing-features-item">
-              Sleeps after 30 mins of inactivity
-            </li>
-          </ul>
-          <span class="pricing-price">$200</span>
-          <a href="#/" class="pricing-button">Sign Up</a>
-        </div>
+      <div class="pricing-plan">
+        <img
+          src="icon/undraw_going_up_re_86kg.svg"
+          alt=""
+          class="pricing-img"
+          width="320"
+        />
+        <h2 class="pricing-header font-bold text-slate-400 tracking-wide">
+          SMALL TEAM
+        </h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item font-bold tracking-normal text-sm">
+            Custom Domains
+          </li>
+          <li class="pricing-features-item font-bold tracking-normal text-sm">
+            Sleeps after 10 mins of inactivity
+          </li>
+        </ul>
+        <span class="pricing-price font-bold">$200</span>
+        <a href="#/" class="pricing-button is-featured">FREE TRIAL</a>
+      </div>
 
-        <div class="pricing-plan">
-          <img
-            src="icon/undraw_cloud_hosting_7xb1.svg"
-            alt=""
-            class="pricing-img"
-            width="250"
-          />
-          <h2 class="pricing-header">ENTERPRISE</h2>
-          <ul class="pricing-features">
-            <li class="pricing-features-item">Custom Domains</li>
-            <li class="pricing-features-item">
-              Sleeps after 30 mins of inactivity
-            </li>
-          </ul>
-          <span class="pricing-price">$125</span>
-          <a href="#/" class="pricing-button">Sign Up</a>
-        </div>
+      <div class="pricing-plan">
+        <img
+          src="icon/undraw_cloud_hosting_7xb1.svg"
+          alt=""
+          class="pricing-img"
+          width="320"
+        />
+        <h2 class="pricing-header font-bold text-slate-400 tracking-wide">
+          ENTERPRISE
+        </h2>
+        <ul class="pricing-features">
+          <li class="pricing-features-item font-bold tracking-normal text-sm">
+            Custom Domains
+          </li>
+          <li class="pricing-features-item font-bold tracking-normal text-sm">
+            Sleeps after 1 mins of inactivity
+          </li>
+        </ul>
+        <span class="pricing-price font-bold">$499</span>
+        <a href="#/" class="pricing-button">FREE TRIAL</a>
       </div>
     </div>
   </body>
