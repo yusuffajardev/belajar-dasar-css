@@ -1,28 +1,92 @@
 body h1 {
   text-align: center;
 }
+
+/* container */
 .container {
+  box-sizing: border-box;
+  border: 2px solid steelblue;
   /* row <- horizontal */
   /* column <- vertikal */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  box-sizing: border-box;
-  background-color: #b7c4cf;
+  /* 
+    rata kanan-konten
+  Properti CSS justify-content mendefinisikan cara browser mendistribusikan ruang di antara dan di sekitar item konten di sepanjang sumbu utama wadah fleksibel, dan sumbu sebaris wadah kisi.
+  */
+
+  /* 
+    flex-wrap
+  Properti CSS flex-wrap mengatur apakah item fleksibel dipaksakan pada satu baris atau dapat membungkus beberapa baris. Jika pembungkusan diperbolehkan, properti ini mengatur arah penumpukan baris.
+  */
+
+  /* 
+    align-items
+  Properti CSS align-items menetapkan nilai align-self pada semua anak langsung sebagai sebuah grup. Di Flexbox, properti ini mengontrol perataan item pada Sumbu Silang. Dalam Tata Letak Grid, properti ini mengontrol perataan item pada Sumbu Blok di dalam area kisi.
+  */
+
+  /* align-content
+The CSS align-content property sets the distribution of space between and around content items along a flexbox's cross-axis or a grid's block axis.
+The interactive example below uses Grid Layout to demonstrate some of the values of this property.  
+  */
   width: 90%;
-  height: 1500px;
+  /* height: 880px; */
+  box-sizing: border-box;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  /* horizontal -> main axis */
+  /* justify-content: center; */
+  /* vertikal -> cross axis*/
+  /* align-content: center; */
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
   border: 5px solid #b7c4cf;
+  background-color: #b7c4cf;
 }
 
+/* items */
 .container > div {
-  width: 215px;
-  height: 215px;
+  /* content */
+  width: 200px;
+  height: 200px;
+  /* 
+    Properti CSS flex-basis menetapkan ukuran utama awal dari item fleksibel. Properti ini mengatur ukuran kotak konten kecuali jika diatur dengan ukuran kotak.
+  */
+  flex-basis: 300px;
 }
 
-.container div span {
-  text-align: center;
-  color: white;
-  font-size: large;
-  line-height: 213px;
+div:nth-of-type(3) {
+  /* 
+    flex-grow
+Properti CSS flex-grow menetapkan faktor pertumbuhan flex, yang menentukan berapa banyak ruang yang tersisa dari kontainer flex yang harus ditetapkan ke ukuran utama item flex.
+  */
+  flex-shrink: 2;
+}
+
+div:nth-of-type(5) {
+  /* 
+    flex-grow
+Properti CSS flex-grow menetapkan faktor pertumbuhan flex, yang menentukan berapa banyak ruang yang tersisa dari kontainer flex yang harus ditetapkan ke ukuran utama item flex.
+  */
+  flex-shrink: 2;
+}
+
+main {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+  border: 5px solid black;
+  height: 500px;
+  display: flex;
+}
+
+main .sidebar {
+  background-color: #b7c4cf;
+  flex: 1 2 300px;
+}
+
+main .content {
+  background-color: darksalmon;
+  /* flex-grow, flex-shrink, flex-basis */
+  flex: 2 1 800px;
 }
