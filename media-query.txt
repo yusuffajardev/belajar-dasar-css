@@ -1,0 +1,2 @@
+@media
+Aturan @media CSS at-rule dapat digunakan untuk menerapkan bagian dari lembar gaya berdasarkan hasil dari satu atau beberapa kueri media. Dengan aturan ini, Anda menentukan kueri media dan blok CSS untuk diterapkan pada dokumen jika dan hanya jika kueri media cocok dengan perangkat tempat konten digunakan.

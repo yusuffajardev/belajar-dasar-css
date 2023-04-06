@@ -1,0 +1,61 @@
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  color: steelblue;
+}
+
+nav {
+  font-size: 1.5em;
+  padding: 1em;
+}
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* @media (width: 666px ) {
+  h1 {
+    color: #33acae;
+  }
+} */
+
+@media screen and (min-width: 576px) {
+  h1 {
+    color: red;
+    font-size: 3em;
+  }
+  nav ul li a {
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    color: green;
+    font-size: 4em;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 6em;
+    text-align: center;
+    color: steelblue;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 300px) and (max-width: 532px) {
+  body {
+    background-color: red;
+  }
+}
